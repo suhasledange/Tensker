@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tensker</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="{{ \Illuminate\Support\Facades\URL::asset('css/index.css') }}">
 
 
     <!-- //google font  -->
@@ -344,7 +344,7 @@
                 <input type="text" placeholder="Search Colleges Exams & more">
             </div>
             <div class="contain-right">
-                <a href="/login" class="nav-btn">Log In</a>
+                <a href="{{ \Illuminate\Support\Facades\URL::to('login') }}" class="nav-btn">Log In</a>
                 <i class="menu-btn uil uil-bars" onclick="menuOpen()"></i>
             </div>
         </div>
@@ -465,7 +465,7 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    <script src="js/index.js"></script>
+    <script src="{{ \Illuminate\Support\Facades\URL::asset('js/index.js') }}"></script>
 
 </body>
 

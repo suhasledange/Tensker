@@ -9,7 +9,8 @@
 </head>
 
 <body>
-    <form action="/login" method="post">
+    <form action="login-auth" method="post">
+        @csrf
         <label for="username"></label>
         <input type="text" id="username" name="username" placeholder=""/>
         <label for="password">password</label>
