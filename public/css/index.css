@@ -6,10 +6,8 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
-    
+    font-family: 'Lato', sans-serif;   
 }
-
 .dark-theme{
     --color-nav:#525252;
     --color-danger:#ff3c01;;
