@@ -64,3 +64,48 @@ function menuOpen(){
         btn.classList.remove("uil-times");
     }
 }
+
+//register toggle
+let reg = document.querySelector(".register");
+let btnr = document.querySelector(".nav-btn");
+
+btnr.addEventListener("click",()=>{
+    reg.classList.toggle("regShow");
+
+});
+
+let log = document.getElementById("login");
+let sign = document.getElementById("signup");
+let btn_id = document.getElementById("btn-id");
+
+let btn_l = document.querySelector(".log-b");
+let btn_s = document.querySelector(".sign-b");
+
+btn_l.addEventListener("click",()=>{
+    sign.style.left = "100%";
+    log.style.left = "0%";
+    btn_id.style.left = "0%";
+});
+btn_s.addEventListener("click",()=>{
+    sign.style.left = "-100%";
+    log.style.left = "-110%";
+    btn_id.style.left = "47%";
+});
+
+// eye
+
+let eye = document.querySelector(".eye-i");
+let pass_f = document.querySelector(".pass-field");
+eye.addEventListener("click",()=>{
+
+    if(eye.classList.contains("uil-eye")){
+        pass_f.type = "password";
+        eye.classList.remove("uil-eye");
+        eye.classList.add("uil-eye-slash");
+    }
+    else{
+        pass_f.type = "text";
+        eye.classList.remove("uil-eye-slash");
+        eye.classList.add("uil-eye");
+    }
+});
