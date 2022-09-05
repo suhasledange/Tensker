@@ -548,10 +548,15 @@ section.register .reg-container{
     right: 3%;
     cursor: pointer;
 }
-.eye i{
+.eye1{
+    position: absolute;
+    top: 30%;
+    right: 3%;
+    cursor: pointer;
+}
+.eye i,.eye-i1{
     color: var(--color-black);
     font-size: 1.3rem;
-
 }
 
                 /* // footer */

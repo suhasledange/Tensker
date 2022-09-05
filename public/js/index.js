@@ -109,3 +109,18 @@ eye.addEventListener("click",()=>{
         eye.classList.add("uil-eye");
     }
 });
+let eye1 = document.querySelector(".eye-i1");
+let pass_f1 = document.querySelector(".pass-field1");
+eye1.addEventListener("click",()=>{
+
+    if(eye1.classList.contains("uil-eye")){
+        pass_f1.type = "password";
+        eye1.classList.remove("uil-eye");
+        eye1.classList.add("uil-eye-slash");
+    }
+    else{
+        pass_f1.type = "text";
+        eye1.classList.remove("uil-eye-slash");
+        eye1.classList.add("uil-eye");
+    }
+});
