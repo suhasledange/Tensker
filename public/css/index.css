@@ -746,8 +746,8 @@ footer{
     nav .container{
         width: var(--container-width-md);
     }
-    .contain-mid{
-        display: none;
+    /* .contain-mid{
+         display: none;
         position: absolute;
         left: -100%;
         width: 13rem;
@@ -763,10 +763,6 @@ footer{
         margin-bottom: -2rem;
     }
  
-    .show{
-        display: block;
-        left: 0;
-    }
     .contain-mid ul{
         margin-top: 3rem;
         flex-direction: column;
@@ -794,13 +790,9 @@ footer{
             opacity: 1;
         }
     }
-    .nav-btn{
-        display: none;
-    }
-    .menu-btn{
-        cursor: pointer;
-        display: block;
-        font-size: 2rem;
+    */
+    section.register .reg-container{
+        width: 50%;
     }
     .contain-mid ul li a{
         color: var(--color-dark1);
