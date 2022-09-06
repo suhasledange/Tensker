@@ -401,7 +401,7 @@ li:hover i{
     position: fixed;
     top: 5%;
     backdrop-filter: blur(3px);  
-    /* display: none; */
+    display: none;
 
 }
 .regShow{
