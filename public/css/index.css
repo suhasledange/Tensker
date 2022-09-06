@@ -401,7 +401,7 @@ li:hover i{
     position: fixed;
     top: 5%;
     backdrop-filter: blur(3px);  
-    display: none;
+    /* display: none; */
 
 }
 .regShow{
@@ -415,7 +415,7 @@ li:hover i{
 }
 section.register .reg-container{
     width: 35%;
-    height: 80%;
+    height: 39rem;
     background: var(--color-light);
     box-shadow: 0 0 1rem 1rem rgba(0, 0, 0, 0.1);
     padding: 2rem;  
@@ -521,11 +521,12 @@ section.register .reg-container{
 }
 
 .divide{
-    margin-top: 4rem;
+    margin-top: 2rem;
     display: flex;
     gap: 1rem;
     align-items: center;
     justify-content: center;
+    margin-bottom: -0.5rem;
 }
 .l-d{
     width: 50%;
@@ -544,16 +545,17 @@ section.register .reg-container{
 }
 .eye{
     position: absolute;
-    top: 30%;
+    top: 24%;
     right: 3%;
     cursor: pointer;
 }
 .eye1{
     position: absolute;
-    top: 30%;
+    top: 43%;
     right: 3%;
     cursor: pointer;
 }
+
 .eye i,.eye-i1{
     color: var(--color-black);
     font-size: 1.3rem;
