@@ -124,3 +124,24 @@ eye1.addEventListener("click",()=>{
         eye1.classList.add("uil-eye");
     }
 });
+
+
+//email validation check
+
+function valid(){
+    let email = document.getElementById("email").value;
+    let tick = document.getElementById("tick");
+    let pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+    if(email.match(pattern)){
+        tick.innerHTML = `<i class="uil uil-check"></i>`;
+        tick.style.color="green";
+    }
+    else{
+        tick.innerHTML = `<i class="uil uil-times"></i>`;
+        tick.style.color="red";
+    }
+    if(email == ""){
+        tick.innerHTML = "";
+
+    }
+}

@@ -402,7 +402,6 @@ li:hover i{
     top: 5%;
     backdrop-filter: blur(3px);  
     display: none;
-
 }
 .regShow{
     display: block;
@@ -494,6 +493,12 @@ section.register .reg-container{
     font-size: 1.1rem;
 
 }
+#tick{
+    position: absolute;
+    top: 23%;
+    font-size: 1.5rem;
+    right: 2%;
+}
 .inp-field::placeholder{
     color: var(--color-footer);
 }
@@ -560,6 +565,14 @@ section.register .reg-container{
     color: var(--color-black);
     font-size: 1.3rem;
 }
+
+#text{
+    display: block;
+    color: var(--color-black);
+    font-weight: 300;
+    
+}
+
 
                 /* // footer */
 
